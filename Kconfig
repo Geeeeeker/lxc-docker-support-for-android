@@ -66,7 +66,6 @@ config DOCKER
 	select CFQ_GROUP_IOSCHED
 	select CGROUP_HUGETLB
 	select NET_CLS_CGROUP
-	select FAIR_GROUP_SCHED
 	select RT_GROUP_SCHED
 	select IP_VS
 	select IP_VS_PROTO_TCP
